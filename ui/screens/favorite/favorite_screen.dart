@@ -34,7 +34,6 @@ class FavoriteScreen extends StatelessWidget {
           ),
 
           const SizedBox(height: 50),
-
           Expanded(
             child: ListView.builder(
               itemCount: songs.length,

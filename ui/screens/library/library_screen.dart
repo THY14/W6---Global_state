@@ -31,7 +31,6 @@ class LibraryScreen extends StatelessWidget {
           Text("Library", style: AppTextStyles.heading),
 
           const SizedBox(height: 50),
-
           Expanded(
             child: ListView.builder(
               itemCount: songs.length,

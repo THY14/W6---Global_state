@@ -15,6 +15,7 @@ class AppSettingsState extends ChangeNotifier {
     _appSettings = await _repository.load();
     notifyListeners();
   }
+  
 
   ThemeColor get theme => _appSettings?.themeColor ?? ThemeColor.blue;
 

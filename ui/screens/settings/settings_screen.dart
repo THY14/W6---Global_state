@@ -9,12 +9,13 @@ import 'widget/theme_color_button.dart';
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
 
+
   @override
   Widget build(BuildContext context) {
 
     // Watch settings state
     AppSettingsState settingsState = context.watch<AppSettingsState>();
-    
+
     return Container(
       color: settingsState.theme.color, 
       child: Column(

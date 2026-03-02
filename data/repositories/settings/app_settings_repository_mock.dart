@@ -10,6 +10,7 @@ class AppSettingsRepositoryMock implements AppSettingsRepository {
     return _settings;
   }
 
+
   @override
   Future<void> save(AppSettings settings) async {
     await Future.delayed(const Duration(milliseconds: 300));
